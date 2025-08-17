@@ -1,0 +1,475 @@
+.wrap.active {
+  left: 0;
+}
+.sharetable {
+  display: block;
+  width: auto;
+  max-width: 487px;
+}
+.sharetable .facebook-cell {
+  display: inline-block;
+  text-align: left;
+  padding: 0 20px 0 0;
+  vertical-align: top;
+  width: auto;
+}
+.sharetable .twitter-cell {
+  display: inline-block;
+  text-align: left;
+  padding: 0 20px 0 0;
+  vertical-align: top;
+  width: auto;
+}
+.sharetable .gplus-cell {
+  display: inline-block;
+  text-align: left;
+  vertical-align: top;
+  width: 52px;
+}
+.mobile-visible {
+  display: none;
+}
+.desktop-visible {
+  display: block;
+}
+.flash-share .float {
+  float: right;
+}
+.menu-link {
+  display: none;
+}
+.subnav {
+  display: none;
+}
+.desktop-nav li:hover .sub {
+  display: none;
+}
+.page-follow {
+  float: right;
+  margin-top: -35px;
+}
+.radio-inline span,
+.checkbox-inline span {
+  white-space: nowrap;
+  display: inline-block;
+}
+.radio-inline input[type="radio"],
+.radio-inline input[type="checkbox"],
+.checkbox-inline input[type="radio"],
+.checkbox-inline input[type="checkbox"] {
+  margin: 0;
+  display: inline-block;
+}
+.radio-inline input[type="radio"]:checked + label,
+.radio-inline input[type="checkbox"]:checked + label,
+.checkbox-inline input[type="radio"]:checked + label,
+.checkbox-inline input[type="checkbox"]:checked + label {
+  background-color: transparent;
+}
+.radio-inline label,
+.checkbox-inline label {
+  display: block;
+  margin: 20px 0;
+}
+.radio-inline label.radio,
+.radio-inline label.checkbox,
+.checkbox-inline label.radio,
+.checkbox-inline label.checkbox {
+  position: relative;
+  top: 2px;
+  display: inline-block;
+  width: auto;
+  background-color: transparent;
+  font-family: "proxima-nova", sans-serif;
+  font-weight: normal;
+  text-align: left;
+  padding: 0;
+  margin: 0 10px 10px 5px;
+}
+.radio-inline label.radio .option_label,
+.radio-inline label.checkbox .option_label,
+.checkbox-inline label.radio .option_label,
+.checkbox-inline label.checkbox .option_label {
+  display: inline;
+}
+.radio-inline label.checkbox,
+.checkbox-inline label.checkbox {
+  position: relative;
+  padding: 0;
+  height: auto;
+  font-size: inherit;
+  margin: 0;
+}
+.radio-inline.checkbox-inline,
+.checkbox-inline.checkbox-inline {
+  vertical-align: top;
+}
+.radio-inline.checkbox-inline li,
+.checkbox-inline.checkbox-inline li {
+  width: auto;
+}
+.radio-inline.checkbox-inline li label,
+.checkbox-inline.checkbox-inline li label {
+  width: auto;
+}
+.radio-inline.checkbox-inline li input[type="checkbox"],
+.checkbox-inline.checkbox-inline li input[type="checkbox"] {
+  vertical-align: middle;
+}
+.radio.inline,
+.checkbox.inline,
+.inline label.radio {
+  display: inline-block;
+  margin-right: 20px;
+  padding-top: 5px;
+  margin-bottom: 10px;
+  vertical-align: middle;
+}
+.radio.inline:first-child,
+.checkbox.inline:first-child,
+.inline label.radio:first-child {
+  margin-left: 0;
+}
+input[type="checkbox"],
+input[type="radio"] {
+  border: 0;
+  padding: 0;
+  background: none;
+  box-shadow: 0;
+}
+.cc {
+  padding-bottom: 10px;
+}
+ul.membership-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  vertical-align: top;
+}
+ul.membership-list li.membership {
+  vertical-align: top;
+  display: inline-block;
+  margin: 0 1.22% 1.22% 0;
+  width: 31.8%;
+  height: 300px;
+}
+ul.membership-list li.membership .buy {
+  position: absolute;
+  width: 88px;
+  bottom: 15px;
+  margin-left: -44px;
+  left: 50%;
+}
+.content-pages-show-signup-wide #content {
+  margin-bottom: 60px;
+}
+.page-features {
+  position: relative;
+  margin: -30px 0 50px 0;
+}
+.page-features .features-headline {
+  font-size: 20px;
+  padding: 15px;
+}
+.flex-direction-nav {
+  top: 36%;
+}
+.flex-prev,
+.flex-next {
+  display: block;
+  height: 58px;
+  font-size: 25px;
+}
+
+.review-rules {
+  float: right;
+  font-size: 12px;
+  padding: 0;
+}
+.page-user-sessions-new-wide .onecolumn-container,
+.page-users-accounts-new-wide .onecolumn-container,
+.page-users-password-resets-new-wide .onecolumn-container,
+.page-users-passwords-new-wide .onecolumn-container {
+  margin: 0 auto;
+  margin-top: -30px;
+  margin-bottom: 20px;
+  width: 75%;
+}
+.page-user-sessions-new-wide footer,
+.page-users-accounts-new-wide footer,
+.page-users-password-resets-new-wide footer,
+.page-users-passwords-new-wide footer {
+  margin: 0 auto;
+  width: 75%;
+}
+#event_rsvp_guests_count,
+input.quantity,
+#signup_donations_to_raise_amount {
+  width: 25%;
+}
+.suggestion-tag-list li {
+  margin: 15px 15px 10px 0;
+}
+input#donation_amount_other {
+  width: 30%;
+}
+.distance .within {
+  position: relative;
+  top: 2px;
+  display: inline;
+  padding-right: 5px;
+}
+.page-user-sessions-new-wide h2 {
+  font-size: 31.5px;
+  line-height: 35px;
+}
+ul#page-stream li.activity span + a {
+  display: inline;
+}
+ul#page-stream .activity-time {
+  display: inline;
+}
+ul#page-stream .timeago {
+  display: inline;
+  padding-right: 0;
+  float: none;
+  font-size: 65%;
+  color: inherit;
+}
+ul#page-stream .activity_links a {
+  display: inline;
+}
+ul#page-stream .activity_content {
+  clear: none;
+}
+@media only screen and (min-device-width: 992px) and (max-device-width: 1100px) {
+  nav .main-menu.top-nav-list .top-nav-list-item {
+    margin: 0 10px 0 0;
+  }
+}
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+  .menu-link {
+    display: block;
+  }
+  .wrap.active {
+    left: 16em;
+  }
+  iframe[src*="youtube"] {
+    display: none;
+  }
+  .responsive-embed-wrapper iframe {
+    display: block;
+  }
+  .fb-like-box iframe {
+    display: block;
+  }
+  header {
+    padding: 28px 0 0 0;
+    max-width: 78%;
+  }
+  .tablet-visible {
+    display: block;
+  }
+  .desktop-visible .subnav-container {
+    display: none;
+  }
+}
+@media only screen and (min-width: 1140px) {
+  ul.membership-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  ul.membership-list li.membership {
+    position: relative;
+    float: left;
+    text-align: center;
+    list-style: none;
+    background-color: #f3f3f3;
+    border-radius: 2px;
+    padding: 15px;
+    display: inline-block;
+    margin: 0 10px 15px 0;
+    width: 32%;
+    height: 300px;
+  }
+  ul.membership-list li.membership .membership-bottom {
+    background-color: #444;
+    color: #ccc;
+  }
+  ul.membership-list li.membership .membership-blurb {
+    padding: 15px 0;
+    font-size: 13px;
+    line-height: 16px;
+  }
+  ul.membership-list li.membership .buy {
+    position: absolute;
+    width: 88px;
+    bottom: 15px;
+    margin-left: -44px;
+    left: 50%;
+  }
+  ul.membership-list li.membership .badge {
+    font-size: 12px;
+    text-transform: uppercase;
+  }
+}
+#blog-teaser-block {
+  overflow: hidden;
+}
+div#updates-news {
+  overflow: hidden;
+  padding: 7px;
+  margin-bottom: 7px;
+  background-color: #222;
+  border-top-right-radius: 8px;
+  border-top-left-radius: 8px;
+}
+#news-icon {
+  display: block;
+  float: left;
+  width: 34px;
+}
+#news-headline {
+  color: #ffffff;
+  margin-left: 38px;
+  margin-top: 5px;
+}
+div.blog-intro {
+  font-size: 0.85em;
+  line-height: 1em;
+  width: 90%;
+  padding: 10px;
+  display: none !important;
+  color: #ffffff;
+  border-radius: 3px;
+}
+div.blog-teaser:hover .blog-intro {
+  display: inline-block !important;
+  background: rgba(0, 0, 0, 0.5);
+}
+div.blog-teaser {
+  margin: 5px 0px 5px 0px;
+  padding-top: 25px;
+  height: 300px;
+  border-radius: 3px;
+  overflow: hidden;
+}
+div.blog-teaser .blog-header {
+  background-color: #222;
+  max-width: 78%;
+  padding: 7px;
+  border-top-right-radius: 8px;
+  -moz-border-radius-topright: 8px;
+  -webkit-border-top-right-radius: 8px;
+  border-bottom-right-radius: 8px;
+  -moz-border-radius-bottomright: 8px;
+  -webkit-border-bottom-right-radius: 8px;
+}
+div.blog-teaser .blog-header .blog-icon {
+  float: left;
+  width: 32px;
+  display: block;
+}
+div.blog-teaser .blog-header .blog-date {
+  color: #999;
+  margin-left: 38px;
+}
+div.blog-teaser .blog-header .blog-title {
+  color: #ffffff;
+  font-size: 1.2em;
+  margin-left: 38px;
+}
+div#post_2 {
+  width: 443px;
+  float: left;
+}
+div#post_3 {
+  margin-left: 447px;
+  margin-top: 10px;
+}
+div#post_4 {
+  width: 243px;
+  float: left;
+}
+div#post_5 {
+  margin-left: 247px;
+  margin-top: 10px;
+}
+div#post_6 {
+  width: 167px;
+  float: left;
+}
+div#post_7 {
+  width: 248px;
+  margin-left: 4px;
+  float: left;
+}
+div#post_8 {
+  margin-left: 423px;
+  margin-top: 10px;
+}
+div#post_9 {
+  width: 327px;
+  float: left;
+}
+div#post_10 {
+  margin-left: 331px;
+  margin-top: 10px;
+}
+div#fp-signup {
+  padding: 10px 0px;
+  height: 200px;
+  color: #ffffff;
+  background: #750746;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #750746), color-stop(4%, #ab2e6d), color-stop(25%, #9e2563), color-stop(100%, #750746));
+  background: -webkit-linear-gradient(top, #750746 0%, #ab2e6d 4%, #9e2563 25%, #750746 100%);
+  background: -webkit-linear-gradient(top, #750746 0%, #ab2e6d 4%, #9e2563 25%, #750746 100%);
+  background: linear-gradient(to bottom, #750746 0%, #ab2e6d 4%, #9e2563 25%, #750746 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#750746', endColorstr='#750746',GradientType=0 );
+}
+div#fp-signup-text {
+  width: 40%;
+  display: inline-block;
+  font-family: "Kreon", "Garamond", "Hoefler Text", Times New Roman, Times, serif;
+  font-size: 1.7em;
+  line-height: 1.15em;
+  margin-right: 5%;
+  text-shadow: 1px 1px #5d173b;
+}
+div#fp-signup-text p {
+  margin: 18px 0 0 0;
+}
+div#fp-signup-form {
+  display: inline-block;
+  font-size: 1.34em;
+  margin-left: 20%;
+  margin-right: 0px;
+  vertical-align: top;
+  margin-top: 5%;
+}
+div#fp-signup-form a {
+  color: #ffffff;
+  text-decoration: underline;
+}
+div#fp-signup-form h4 {
+  font-family: "proxima-nova", sans-serif;
+  font-size: 1.18em;
+  text-shadow: 1px 1px #5d173b;
+}
+div.page-features {
+  clear: both;
+  margin-top: 20px;
+}
+p#login {
+  font-size: 0.6em;
+  margin-top: 0;
+}
+div#fp-signup-form input[type="email"],
+.uneditable-input {
+  margin-bottom: 0;
+}
+div#fp-signup-form input[type="submit"] {
+  padding: 0 15px;
+  min-height: 30px;
+}
